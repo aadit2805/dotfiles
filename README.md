@@ -11,11 +11,16 @@ brew bundle --file ~/Documents/dotfiles/brew/Brewfile
 xargs -n1 cursor install-extension < ~/Documents/dotfiles/editor/cursor/extensions.txt
 ```
 
-Then update `git/gitconfig` with the right email and generate a signing key:
+## Notes to self
 
-```bash
-ssh-keygen -t ed25519 -C "you@work.com" -f ~/.ssh/id_ed25519_signing
-```
+**Same identity, new laptop** (personal email on work machine):
+1. `ssh-keygen -t ed25519 -C "aadit2805@gmail.com" -f ~/.ssh/id_ed25519_signing`
+2. Add the new pubkey to GitHub → SSH and GPG keys → **Signing Key**
+3. Append the pubkey line to `git/config/allowed_signers` (keep old lines too)
+4. Fresh logins: `gh auth login`, Claude Code, Codex
+
+**Work identity, new laptop**: same as above, but first edit `git/gitconfig`
+to swap `email` and `name`, and use the work email in the `ssh-keygen -C` flag.
 
 ## Not included (set up fresh)
 
