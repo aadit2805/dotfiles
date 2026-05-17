@@ -1,0 +1,29 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Folder view configuration
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Generated LaTeX files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync

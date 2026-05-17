@@ -1,0 +1,41 @@
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+[marketplaces.openai-bundled]
+last_updated = "2026-05-01T21:01:45Z"
+source_type = "local"
+source = "/Users/aaditshah/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-05-02T00:51:50Z"
+source_type = "local"
+source = "/Users/aaditshah/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[marketplaces.claude-plugins-official]
+last_updated = "2026-05-12T17:55:19Z"
+last_revision = "1cf022eba106dce65cd2ce28a42d34d1b2874acf"
+source_type = "git"
+source = "https://github.com/anthropics/claude-plugins-official.git"
+
+[plugins."browser-use@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."frontend-design@claude-plugins-official"]
+enabled = true
+
+[plugins."slack@claude-plugins-official"]
+enabled = true
+
+[plugins."slack@openai-curated"]
+enabled = true
+
+[plugins."figma@openai-curated"]
+enabled = true

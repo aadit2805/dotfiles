@@ -1,0 +1,31 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "window.titleBarStyle": "native",
+    "window.nativeTabs": true,  
+    "cursor.enableAutocomplete": false,
+    "editor.inlineSuggest.enabled": false,
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "one",
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "remote.SSH.remotePlatform": {
+        "192.168.136.128": "linux"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "explorer.confirmPasteNative": false,
+    "makefile.configureOnOpen": true,
+    "git.confirmSync": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "window.autoDetectColorScheme": false
+}

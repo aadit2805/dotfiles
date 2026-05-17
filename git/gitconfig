@@ -1,0 +1,25 @@
+[user]
+	name = Aadit Shah
+	email = aadit2805@gmail.com
+	signingkey = /Users/aaditshah/.ssh/id_ed25519_signing.pub
+[core]
+	excludesfile = /Users/aaditshah/.gitignore_global
+[init]
+	defaultBranch = main
+[column]
+	ui = auto
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true
+[branch]
+	sort = -committerdate
+[gpg]
+	program = /opt/homebrew/bin/gpg
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /Users/aaditshah/.config/git/allowed_signers
+[credential]
+	helper = store

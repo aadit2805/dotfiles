@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Hide the “default interactive shell is now zsh” warning on macOS
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Increase bash history size to infinite
+export HISTSIZE=
+export HISTFILESIZE=
+
+# Omit duplicates and commands beginning with a space
+export HISTCONTROL='ignoreboth'
+
+# Go
+export GOPATH=/Users/$USER/go
+export PATH=$GOPATH/bin:$PATH
+
+# Fix xcode error
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# Fix GPG error
+export GPG_TTY=$(tty)
+
+# Node
+export BROWSERSLIST_IGNORE_OLD_DATA=1
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
+# tldr
+export TLDR_AUTO_UPDATE_DISABLED=1

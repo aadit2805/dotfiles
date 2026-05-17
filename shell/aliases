@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Quality of life
+alias ls="ls -1 -haFG --color"
+alias fc="expr \$(ls -1 | wc -l) - 2"
+alias cat="bat"
+alias activate="source venv/bin/activate"
+alias weather="curl wttr.in"
+
+# Easier navigation: .., ..., ...., .....
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# Git shortcuts
+alias g="git"
+alias gs="git status"
+alias ga="git add ."
+alias gd="git diff"
+alias gc="git commit -m"
+alias gb="git branch"
+alias gk="git checkout"
+alias gl="git log --oneline --decorate --graph"
+alias ghr="git reset --hard HEAD"
+alias gsh="git push"
+alias gll="git pull"
+alias gf="git fetch"
+
+# Open applications
+alias chrome="open -a 'google chrome'"
+alias sublime="open -a 'sublime text'"
+
+# Python
+# Run isort + format on current dir
+alias ruffd="ruff check --fix --select I; ruff format"
+
+# Node
+alias brd="bun run dev"
+alias nrd="bun run dev"
+alias brb="bun run build"
+alias brs="bun run start"
+
+# Tailscale
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+

@@ -1,0 +1,21 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "one",
+    "explorer.confirmPasteNative": false,
+    "workbench.editor.empty.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "redhat.telemetry.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+}
